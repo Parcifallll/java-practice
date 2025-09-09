@@ -1,3 +1,5 @@
+package Miscellaneous;
+
 class Box {
     private int i;
     private int j;

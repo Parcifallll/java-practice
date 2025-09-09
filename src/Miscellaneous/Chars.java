@@ -1,3 +1,5 @@
+package Miscellaneous;
+
 public class Chars {
     public static void main(String[] args) {
         int chars = (int) Math.pow(2, (double) Character.BYTES * 8 / 2 - 1);//char = Unicode (2**16 symbols), ASCII (2**7 symbols)

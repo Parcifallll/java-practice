@@ -1,3 +1,5 @@
+package Miscellaneous;
+
 /*type inference (var): types are not dynamic, it is defined in compilation stage (not the runtime)
 don't work with null and the classes fields (only local variables)
  */

@@ -1,3 +1,5 @@
+package Miscellaneous;
+
 class Arrs {
     public static void main(String[] args) {
         int sum = 0;
