@@ -9,7 +9,7 @@ public class BinarySearch {
         int mid;
         while (low <= high) {
             mid = low + (high - low) / 2; //or (high + low) >>> 1 (Overflow check)
-            if (vals[mid] == val) return mid;
+            if (vals[mid].compareTo(val) == 0) return mid;
             else if (vals[mid].compareTo(val) > 0) high = mid - 1;
             else if (vals[mid].compareTo(val) < 0) low = mid + 1;
         }
@@ -28,8 +28,10 @@ public class BinarySearch {
         Integer[] vals = {1, 3, 4, 5, 6, 9, 10, 11, 12, 14};
         Integer val = 12;
 
-        Arrays.binarySearch(vals, val);
-        System.out.println(binarySearchIterative("abc", new String[]{"abb", "abc"}));
-        System.out.println(binarySearchRecursive(val, vals, 0, vals.length - 1));
+
+//
+//        Arrays.binarySearch(vals, val);
+//        System.out.println(binarySearchIterative("abc", new String[]{"abb", "abc"}));
+//        System.out.println(binarySearchRecursive(val, vals, 0, vals.length - 1));
     }
 }
