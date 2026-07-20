@@ -28,7 +28,7 @@ public class BinarySearch {
         Integer[] vals = {1, 3, 4, 5, 6, 9, 10, 11, 12, 14};
         Integer val = 12;
 
-
+ 
 //
 //        Arrays.binarySearch(vals, val);
 //        System.out.println(binarySearchIterative("abc", new String[]{"abb", "abc"}));
